@@ -257,7 +257,7 @@ a {
   margin-left: 0;
 }
 .dot-completed {
-  background-image: url(/img/dot.png);
+  background-image: url(img/dot.png);
   width: 10px;
   height: 10px;
   display: inline-block;
@@ -475,7 +475,7 @@ a {
   display: flex;
 }
 .consultation_1 {
-  background-image: url(/img/image\ 4.jpg);
+  background-image: url(img/image\ 4.jpg);
   background-size: cover;
   width: 40%;
   height: 645px;
@@ -605,7 +605,7 @@ a {
 /* СТИЛИ СЛАЙД 5 */
 
 .slide_5 {
-  background-image: url(/img/image\ 5.jpg);
+  background-image: url(img/image\ 5.jpg);
   background-size: cover;
   height: 864px;
   position: relative;
@@ -808,7 +808,7 @@ a {
   margin-left: 14px;
 }
 .city_1 {
-  background-image: url(/img/image\ 6.jpg);
+  background-image: url(img/image\ 6.jpg);
   height: 776px;
   width: 1127px;
   position: absolute;
@@ -817,7 +817,7 @@ a {
   z-index: 0;
 }
 .city_2 {
-  background-image: url(/img/image\ 7.jpg);
+  background-image: url(img/image\ 7.jpg);
   height: 776px;
   width: 739px;
   position: absolute;
@@ -830,7 +830,7 @@ a {
 
 .slide_7 {
   height: 954px;
-  background-image: url(/img/image\ 8.jpg);
+  background-image: url(img/image\ 8.jpg);
   background-size: cover;
   position: relative;
 }
