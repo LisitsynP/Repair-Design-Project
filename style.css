@@ -176,17 +176,18 @@ a {
   margin-right: 75px;
   margin-bottom: 45px;
 }
-.ul_slide_2 a {
-  color: rgba(255, 255, 255, 0.3);
-}
 .ul_slide_2_items {
-  margin: 20px;
+  margin: 0px 24px;
   font-family: "Yeseva One";
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
 }
-.ul_slide_2 a:hover {
+.ul_slide_2_items {
+  cursor: pointer;
+}
+.ul_slide_2_items:hover,
+.ul_slide_2_items.active {
   color: #e3b873;
   text-decoration: underline;
 }
@@ -249,6 +250,31 @@ a {
 }
 .img_slide_2 {
   margin-right: 0;
+  background-color: #ffffff;
+  width: 678px;
+  height: 480px;
+  position: relative;
+}
+.image_slide_2 {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 800ms ease;
+}
+.image_slide_2.active {
+  opacity: 1;
+}
+.arrows {
+  cursor: pointer;
+}
+.arrows:hover,
+.arrows.active {
+  background: rgb(255, 255, 255, 0.2);
 }
 .dots-completed {
   margin-top: 60px;
@@ -256,11 +282,22 @@ a {
   width: 205px;
   margin-left: 0;
 }
-.dot-completed {
-  background-image: url(img/dot.png);
+.dots {
+  display: flex;
+  justify-content: center;
+}
+.dots-item {
   width: 10px;
   height: 10px;
-  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+.dots-item:hover,
+.dots-item.active {
+  background: rgb(255, 255, 255);
 }
 
 /* СТИЛИ СЛАЙД 3 */
